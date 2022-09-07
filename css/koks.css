@@ -11,13 +11,13 @@ body {
 }
 a {
   transition: all 0.3s ease;
-  color: rgb(90, 0, 192);
+  color: #5044f8;
 }
 
 a:hover,
 a:focus {
   text-decoration: none;
-  color: rgb(64, 0, 138);
+  color: rgb(34, 22, 201);
 }
 
 a:focus {
@@ -38,7 +38,7 @@ blockquote {
 }
 
 .tm-section-pad-top {
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 40px;
 }
 
@@ -81,6 +81,7 @@ blockquote {
 
 .tm-navbar a {
   color: rgb(180, 180, 180);
+  transition: all 0.3s ease;
 }
 .tm-navbar a:hover {
   color: rgb(255, 255, 255);
@@ -201,6 +202,14 @@ blockquote {
   text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
+@media screen and (max-width: 768px) {
+  .tm-hero-subtitle {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 .tm-intro-next {
   position: absolute;
   bottom: 100px;
@@ -242,6 +251,7 @@ blockquote {
 }
 
 .tm-section-title {
+  padding-top: 65px;
   font-size: 2.6rem;
   font-weight: normal;
 }
@@ -270,11 +280,15 @@ blockquote {
 /* reviews */
 #reviews {
   color: white;
-  background-image: url(../img/koks2.jpg);
+  /* background-image: url(../img/koks2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
+  background-size: 100%; */
+  background: url(../img/koks2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 @media (max-width: 991px) {
@@ -291,7 +305,6 @@ blockquote {
 .tm-bg-overlay {
   width: 100%;
   height: 100%;
-  /* background: rgba(20, 70, 80, 0.2); */
   position: absolute;
   top: 0;
   left: 0;
@@ -338,7 +351,7 @@ blockquote {
 
 .tm-section-desc {
   max-width: 650px;
-  width: 100%;
+  width: 70%;
   font-size: 0.9rem;
 }
 
@@ -655,11 +668,13 @@ p {
 
 @media (max-width: 991px) {
   .tm-intro-text-container {
-    padding-left: 15px;
+    padding-bottom: 25px;
+    /* padding-left: 15px; */
     padding-top: 30px;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
   }
 
   .tm-intro-img {
