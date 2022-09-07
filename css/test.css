@@ -501,6 +501,33 @@
   }
 }
 
+@media screen and (max-width: 420px) {
+  .ichhassemeinleben{
+    transform: translateY(-25px);
+    margin-left: 39.5%;
+  }
+  .ichhassemeinleben:hover{
+    transform: translateY(-25px) scale(1.15);
+    margin-left: 40%;
+  }
+  .ichhassemeinleben2{
+    transform: translateY(-25px);
+    margin-left: 40%;
+  }
+  .ichhassemeinleben2:hover{
+    transform: translateY(-25px) scale(1.15);
+    margin-left: 39.5%;
+  }
+  .ichhassemeinleben22 {
+    transform: translateY(-25px);
+    margin-left: 38.5%;
+  }
+  .ichhassemeinleben22:hover {
+    transform: translateY(-25px) scale(1.15);
+    margin-left: 38.5%;
+  }
+}
+
 @media screen and (max-width: 365px) {
   .ichhassemeinleben{
     transform: translateY(-25px);
