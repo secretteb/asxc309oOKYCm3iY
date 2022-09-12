@@ -81,7 +81,7 @@ blockquote {
 
 .tm-navbar a {
   color: rgb(180, 180, 180);
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.25, 0.1, 0.28, 1.4);
 }
 .tm-navbar a:hover {
   color: rgb(255, 255, 255);

@@ -235,6 +235,9 @@
   .footer-basic li {
     padding:0 4.20px;
   }
+  .footer-basic li:hover {
+    cursor: pointer;
+  }
 
   .footer-basic ul a {
     color:inherit;
@@ -321,7 +324,7 @@
 }
 
 .nig {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s cubic-bezier(0.42, 0, 0.34, 2.05);
 }
 .nig:hover {
   transform: scale(1.1);
@@ -362,7 +365,7 @@
 }
 
 .hs {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s cubic-bezier(0.42, 0, 0.33, 1.82);
 }
 .hs:hover {
   transform: scale(1.1);
